@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio — Muhammad Hendra Hernawan</title>
+  <meta name="description" content="Portofolio pribadi Muhammad Hendra Hernawan" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <span class="icon">🤖</span>
+        <span>Muhammad Hendra Hernawan</span>
+      </div>
+
+      <nav class="links">
+        <a href="#tentang">Tentang</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#sertifikat">Sertifikat</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <span class="badge">👋 Halo, saya Muhammad Hendra Hernawan</span>
+          <h1 class="title">Web Developer</h1>
+          <p class="muted">“Membangun aplikasi web yang fungsional dan menarik untuk mewujudkan ide menjadi nyata.”</p>
+          <div class="cta">
+            <a class="btn primary" href="#proyek">Lihat Karya Saya</a>
+            <a class="btn" href="#kontak">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="card" style="overflow:hidden; aspect-ratio:1/1;">
+          <img src="assets/images/foto-hendra.jpg" 
+               alt="Foto Muhammad Hendra Hernawan" 
+               style="width:100%; height:100%; object-fit:cover; object-position:center; border-radius:18px;">
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <div class="card panel">
+        <p>Halo! Saya Muhammad Hendra Hernawan, seorang pembelajar yang antusias di bidang Pengembangan Web.</p>
+        <p>Saya senang membangun aplikasi web interaktif dan terus mengasah keterampilan untuk berkontribusi pada tim. Saat ini saya mencari kesempatan magang sebagai Web Developer untuk menerapkan kemampuan, mendapatkan pengalaman, dan memberi dampak nyata.</p>
+      </div>
+    </section>
+   
+    <section id="keahlian">
+      <h2>Keahlian &amp; Teknologi</h2>
+      <div class="skills">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">React</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">REST API</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">API Integration</span>
+        <span class="chip">VS Code</span>
+        <span class="chip">Figma</span>
+      </div>
+    </section>
+
+    <section id="sertifikat">
+      <h2>Sertifikat</h2>
+      <ul>
+        <li>Program Web Development, RevoU — 2024</li>
+        <li>Front-End Web Development, Dicoding — 2023</li>
+        <li>SQL Fundamentals, Oracle Academy — 2022</li>
+      </ul>
+    </section>
+
+    <section id="proyek">
+      <h2>Proyek</h2>
+      <div class="grid cols-2">
+        <!-- Proyek 1: AgroMart -->
+        <article class="card project">
+          <div class="mock">
+            <img src="assets/images/logo_agromart.png" 
+                 alt="Logo AgroMart — platform e-commerce pertanian"
+                 style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius);">
+          </div>
+          <h3>AgroMart — Platform E-commerce Pertanian</h3>
+          <p>Marketplace pertanian untuk jual beli hasil panen, pupuk, dan alat tani—pengalaman belanja ala e-commerce modern.</p>
+          <p><strong>Fitur:</strong> katalog komoditas &amp; filter, keranjang &amp; checkout, pelacakan pesanan, dashboard penjual</p>
+          <p><strong>Teknologi:</strong> HTML, CSS, JavaScript</p>
+          <a class="btn primary" 
+             href="https://agromart.example.com" 
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Buka demo langsung AgroMart di tab baru">Demo Langsung</a>
+          <a class="btn" 
+             href="https://github.com/HendraHernawan25/agromart" 
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Lihat kode sumber AgroMart di GitHub">Lihat di GitHub</a>
+        </article>
+
+        <!-- Proyek 2: JobFlow -->
+        <article class="card project">
+          <div class="mock">
+            <img src="assets/images/logo_jobflow.png" 
+                 alt="Logo JobFlow — portal rekrutmen perusahaan"
+                 style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius);">
+          </div>
+          <h3>JobFlow — Portal Rekrutmen Perusahaan</h3>
+          <p>Sistem rekrutmen berbasis web untuk HRD: posting lowongan di situs perusahaan, kandidat melamar langsung tanpa platform pihak ketiga.</p>
+          <p><strong>Fitur:</strong> halaman karier &amp; daftar lowongan, formulir lamaran &amp; unggah CV, tracking kandidat (screening–interview–offer), panel HRD</p>
+          <p><strong>Teknologi:</strong> React, Node.js, REST API</p>
+          <a class="btn primary" 
+             href="https://jobflow.example.com" 
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Buka demo langsung JobFlow di tab baru">Demo Langsung</a>
+          <a class="btn" 
+             href="https://github.com/HendraHernawan25/jobflow" 
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Lihat kode sumber JobFlow di GitHub">Lihat di GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey">
+      <h2>Perjalanan</h2>
+      <div class="card panel">
+        <p>🎓 Memulai studi dan mempelajari dasar-dasar pemrograman</p>
+        <p>💻 Membangun proyek pribadi (Website E-commerce/AgroMart, JobFlow, Landing Page)</p>
+        <p>📜 Menyelesaikan pelatihan di RevoU serta sertifikasi dari Dicoding &amp; Oracle</p>
+        <p>🚀 Mengembangkan portofolio profesional untuk melamar magang sebagai Web Developer</p>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <div class="contact">
+        <div class="card panel">
+          <p class="muted">Yuk terhubung dan kolaborasi!</p>
+          <p>✉️ Email: <a href="mailto:hernawanhendra439@gmail.com">hernawanhendra439@gmail.com</a></p>
+          <p>🔗 LinkedIn: <a href="#">M.Hendra Hernawan</a></p>
+          <p>🐙 GitHub: <a href="#">HendraHernawan25</a></p>
+          <div class="cv-buttons">
+            <a href="assets/docs/cv-hendra.pdf" download class="btn">⬇️ Unduh CV</a>
+            <a href="assets/docs/cv-hendra.pdf" target="_blank" class="btn">👀 Pratinjau CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Muhammad Hendra Hernawan
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const links = document.querySelector('.links');
+    menuBtn?.addEventListener('click', ()=>{
+      if(!links) return;
+      const isOpen = links.style.display === 'flex';
+      links.style.display = isOpen ? 'none' : 'flex';
+      links.style.flexDirection = 'column';
+      links.style.gap = '12px';
+      links.style.background = 'rgba(20,26,41,.98)';
+      links.style.position = 'absolute';
+      links.style.top = '64px';
+      links.style.right = '20px';
+      links.style.padding = '14px';
+      links.style.border = '1px solid rgba(255,255,255,.08)';
+      links.style.borderRadius = '14px';
+      links.style.boxShadow = 'var(--shadow)';
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href');
+        if(id && id !== '#'){
+          e.preventDefault();
+          document.querySelector(id)?.scrollIntoView({behavior:'smooth'});
+        }
+      })
+    })
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
